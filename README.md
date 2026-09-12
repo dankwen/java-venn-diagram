@@ -1,8 +1,9 @@
-## README NOTES
-By: Dan Wenger
-Java Intro Mod 3 Assignment
-NOTE: I generated this spec in Gemini NotebookLM by loading the assignment requirements and my class notes, then prompted 
-Gemini to create a README.md that we could use with AI Code Assist agents in the IDE. 
+Dan Wenger \
+2026-09-12 \
+Intro to Java \
+Module 3 Assignment
+
+NOTE: I generated this specification in Gemini's NotebookLM. I provided NotebookLM with the assignment prompt and my class notes, then prompted it to generate this README.md file. My guidance was to generate a sepcification and phased development plan that our IDE Code Assist agents could work from to develop the project. 
 
 # Module 3 Assignment Specification: Generic Venn Diagram Utility Class
 
