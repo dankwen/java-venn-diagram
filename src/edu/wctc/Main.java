@@ -40,5 +40,26 @@ public class Main {
         IO.println(foodDiagram.complementOf(cheesy, carby));
         // all three
         IO.println(foodDiagram.diagramCenter());
+
+        String evens = "evens";
+        String primes = "primes";
+        String fibonaccis = "Fibonaccis";
+
+        VennDiagram<Integer> numberDiagram = new VennDiagram<>(evens, primes, fibonaccis);
+
+        for (int number : new int[] {2, 4, 6, 8, 10}) {
+            numberDiagram.add(number, evens);
+        }
+        for (int number : new int[] {2, 3, 5, 7}) {
+            numberDiagram.add(number, primes);
+        }
+        for (int number : new int[] {1, 2, 3, 5, 8}) {
+            numberDiagram.add(number, fibonaccis);
+        }
+
+        IO.println(numberDiagram.unionOf(primes, evens));
+        IO.println(numberDiagram.intersectionOf(primes, fibonaccis));
+        IO.println(numberDiagram.complementOf(fibonaccis, evens));
+        IO.println(numberDiagram.diagramCenter());
     }
 }
