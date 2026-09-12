@@ -2,7 +2,7 @@ package edu.wctc;
 
 public class Main {
 
-    void main() {
+    public static void main(String[] args) {
         String carby = "carby";
         String tomatoey = "tomatoey";
         String cheesy = "cheesy";
